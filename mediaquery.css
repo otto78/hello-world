@@ -1,0 +1,38 @@
+/* On screens that are 1200px or less */
+@media screen and (max-width: 1200px) {
+    
+    #bloccoTitoli {
+        padding-left: 0rem;
+        
+    }
+}
+
+
+/* On screens that are 992px or less, */
+@media screen and (max-width: 992px) {
+    
+    p{
+        font-size:1rem ;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    #bloccoTitoli {
+        padding-left: 0rem;
+    }
+}
+  
+  /* On screens that are 768px or less */
+  @media screen and (max-width: 768px) {
+    
+    #bloccoTitoli {
+        padding-bottom: 1rem;
+        
+    }
+}
