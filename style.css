@@ -24,3 +24,21 @@ h2 {
 #bloccoTitoli {
     padding-left: 3rem;
 }
+
+#dev{
+
+    position: relative;
+   
+    transform: translateX(20%);
+}
+
+#freccia{
+    transition: all 0.2s ease;
+}
+
+#freccia:hover{
+    transition: 0.2s ease-in-out;
+    color :#9c8b72;
+    transform: rotate(-90deg);
+}
+

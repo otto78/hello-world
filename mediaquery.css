@@ -35,4 +35,12 @@
         padding-bottom: 1rem;
         
     }
+
+    #dev{
+
+        
+       
+        transform: translateX(0%);
+    }
+    
 }
