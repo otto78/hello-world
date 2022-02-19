@@ -5,6 +5,12 @@
         padding-left: 0rem;
         
     }
+
+    .par{
+        font-size: 17px;
+        top: -370px;
+        margin-bottom: -280px;
+    }
 }
 
 
@@ -17,6 +23,7 @@
 
     h1{
         font-size: 2.5rem;
+        padding-top: 0.4rem;
     }
 
     h2{
@@ -26,21 +33,36 @@
     #bloccoTitoli {
         padding-left: 0rem;
     }
+
+    .par{
+        font-size: 13px;
+        top: -270px;
+        margin-bottom: -215px;
+    }
 }
   
   /* On screens that are 768px or less */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     
     #bloccoTitoli {
         padding-bottom: 1rem;
         
     }
 
-    #dev{
-
-        
-       
+    #dev{       
         transform: translateX(0%);
     }
-    
+
+    h1{
+        padding-top: 6rem;
+    }
+    #freccia{
+        transform: rotate(-45deg);
+    }
+
+    .par{
+        font-size: 16px;
+        top: -390px;
+        margin-bottom: -260px;
+    }
 }

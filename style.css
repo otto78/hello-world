@@ -28,7 +28,7 @@ h2 {
 #dev{
 
     position: relative;
-   
+    z-index: 1;
     transform: translateX(20%);
 }
 
@@ -42,3 +42,26 @@ h2 {
     transform: rotate(-90deg);
 }
 
+
+.par{
+    color: whitesmoke;  
+    position: relative;
+    top: -450px;
+    margin-bottom: -340px;
+    font-size: 1.3rem;
+    text-align: center;
+
+    animation-name: fade;
+    animation-duration: 1s;
+
+}
+
+.fede-in{
+    opacity: 0.9s;
+    transition: 3s;
+}
+
+@keyframes fade{
+    from {opacity:0;}
+    to {opacity:0.9;}
+}
