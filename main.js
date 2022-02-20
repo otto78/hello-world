@@ -77,7 +77,6 @@ freccia.addEventListener('click',()=>{
 function rimuovi(el){
     el.style.opacity = '0';
     el.style.transition = '1s'
-
     setTimeout(elimina, 1000)
 
     function elimina(){el.remove()}

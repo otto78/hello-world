@@ -9,7 +9,7 @@
     .par{
         font-size: 17px;
         top: -370px;
-        margin-bottom: -280px;
+        margin-bottom: -282px;
     }
 }
 
@@ -17,7 +17,7 @@
 /* On screens that are 992px or less, */
 @media screen and (max-width: 992px) {
     
-    p{
+    a{
         font-size:1rem ;
     }
 
@@ -63,6 +63,6 @@
     .par{
         font-size: 16px;
         top: -390px;
-        margin-bottom: -260px;
+        margin-bottom: -265px;
     }
 }
