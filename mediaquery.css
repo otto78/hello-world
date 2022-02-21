@@ -2,8 +2,7 @@
 @media screen and (max-width: 1200px) {
     
     #bloccoTitoli {
-        padding-left: 0rem;
-        
+        padding-left: 0rem;  
     }
 
     .par{
@@ -12,7 +11,6 @@
         margin-bottom: -282px;
     }
 }
-
 
 /* On screens that are 992px or less, */
 @media screen and (max-width: 992px) {
@@ -45,17 +43,21 @@
   @media screen and (max-width: 767px) {
     
     #bloccoTitoli {
-        padding-bottom: 1rem;
-        
+        padding-bottom: 1rem;        
     }
 
     #dev{       
         transform: translateX(0%);
+        transform: scale(90%);
+        padding: 0.5rem !important;
+        margin: 0rem 0 0rem 0 !important;
     }
 
     h1{
-        padding-top: 6rem;
+        font-size: 1.5rem;
+        padding-top: 1rem;
     }
+
     #freccia{
         transform: rotate(-45deg);
     }
@@ -64,5 +66,15 @@
         font-size: 16px;
         top: -390px;
         margin-bottom: -265px;
+    }
+}
+
+ /* On screens that are 475px or less */
+ @media screen and (max-width: 476px) {
+        
+    .par{
+        font-size: 0.8rem;
+        top: -280px;
+        margin-bottom: -200px;
     }
 }

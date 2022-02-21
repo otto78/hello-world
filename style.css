@@ -1,7 +1,7 @@
 body {
     font-family: 'Arimo', sans-serif;
-    background-color:  #866c4349
-    
+    background-color:  #866c4349;
+    min-height: 100vh;   
 }
 
 .bg-base{
@@ -15,6 +15,7 @@ body {
 p{
     font-size: 1.5rem;
 }
+
 h1{
     font-size: 3.5rem;
 }
@@ -28,7 +29,6 @@ h2 {
 }
 
 #dev{
-
     position: relative;
     z-index: 1;
     transform: translateX(20%);
@@ -55,13 +55,11 @@ h2 {
 
     animation-name: fade;
     animation-duration: 1s;
-
 }
 
 #close{
     font-size: 1.5rem;
     transition: all 0.2s ease;
-    
 }
 
 #close:hover{
