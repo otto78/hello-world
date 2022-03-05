@@ -133,13 +133,24 @@ a:hover{
 }
 
 .back{
-    backdrop-filter: opacity(1) blur(10px) brightness(30%);    
+    backdrop-filter: opacity(1) blur(10px) brightness(30%);
+    background-color: #9c8b7264;  
 }
 
 .back2{
     backdrop-filter: opacity(1) blur(5px);    
 }
 
-#bio{
+.bio{
     color: whitesmoke;
+    line-height: 1.6;
+}
+
+.filter{
+    
+    filter: brightness(20%) blur(5px);
+
+}
+.card{
+    border: none!important;
 }

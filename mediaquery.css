@@ -5,10 +5,9 @@
         padding-left: 0rem;  
     }
 
-    .par{
+    .bio{
         font-size: 17px;
-        top: -370px;
-        margin-bottom: -282px;
+        
     }
 }
 
@@ -32,10 +31,9 @@
         padding-left: 0rem;
     }
 
-    .par{
+    .bio{
         font-size: 13px;
-        top: -270px;
-        margin-bottom: -215px;
+        
     }
 }
   
@@ -62,19 +60,17 @@
         transform: rotate(-45deg);
     }
 
-    .par{
+    .bio{
         font-size: 16px;
-        top: -390px;
-        margin-bottom: -265px;
+        
     }
 }
 
  /* On screens that are 475px or less */
  @media screen and (max-width: 476px) {
         
-    .par{
+    .bio{
         font-size: 0.8rem;
-        top: -280px;
-        margin-bottom: -211px;
+        
     }
 }
