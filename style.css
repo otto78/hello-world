@@ -1,15 +1,17 @@
 body {
     font-family: 'Arimo', sans-serif;
+    background-image: linear-gradient(#866c4374, #866c4374), url(./media/desert.jpg);
     background-color:  #866c4349;
     min-height: 100vh;   
 }
 
 .bg-base{
-    background-color: #ecebed;
+    background-color: #ecebed83;
+    height: 550px;
 }
 
 .bg-name{
-    background-color: #9c8b72;
+    background-color: #9c8b7264;
 }
 
 p{
@@ -32,6 +34,10 @@ h2 {
     position: relative;
     z-index: 1;
     transform: translateX(20%);
+}
+
+h2:hover{
+    color :#9c8b72 ;
 }
 
 #freccia{
@@ -85,11 +91,32 @@ a:hover{
     color: whitesmoke;
 }
 
+.my-shadow{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.33);
 
+}
 
+#portfolio:hover{
+    color: #9c8b72!important;
+}
+
+#backBtn{
+    font-size: 2.5rem;
+}
 
 /* Animazioni */
 @keyframes fade{
     from {opacity:0;}
     to {opacity:0.9;}
+}
+
+
+.d-none-out{
+    animation: d-none-out 1s;
+   
+}
+
+@keyframes d-none-out{
+    from {display: block;}
+    to {display: none;}
 }

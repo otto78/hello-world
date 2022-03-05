@@ -54,5 +54,79 @@ function rimuovi(el){
     function elimina(){el.remove()}
 }
 
+let portfolioBtn = document.querySelector('#portfolioBtn')
+
+
+
+
+
+    portfolioBtn.addEventListener('click', ()=>{
+        
+        dev.style.transform = "translateX(0%)"
+        dev.style.transition = "1s";
+        
+        // img.classList.add('d-none')
+        // portfolioBtn.classList.add('d-none')
+        nascondi(img)
+        nascondi(portfolioBtn)
+        
+        let portfolioDiv = document.createElement('div')
+        portfolioDiv.setAttribute('id', 'portfolio')
+        
+        let jobs = document.createElement('div')       
+        jobs.innerHTML = `
+        <p>Sito di sefora</p>
+        <p>Memory</p>
+        <p>presto.it</p>
+        <button id="backBtn" class="btn"><i class="bi bi-arrow-left-circle-fill"></i></button>
+        `
+        
+        portfolioDiv.append(jobs)
+          
+        
+        function port() {
+            col2.append(portfolioDiv)
+            let backBtn = document.querySelector('#backBtn')
+            backBtn.addEventListener('click', ()=>{
+            nascondi(portfolioDiv)
+            dev.style.transform = "translateX(20%)"
+            dev.style.transition = "1s";
+            
+           
+            mostra(img)
+            mostra(portfolioBtn)
+
+            
+        })
+        
+        }
+        
+        
+        
+        
+        setTimeout(port,1001)
+        
+        
+    
+    })
+
+    
+    
+function nascondi(el){
+    el.style.opacity = '0';
+    el.style.transition = '1s'
+    setTimeout(elimina, 1000)
+    function elimina(){el.classList.add('d-none')}
+
+}
+
+function mostra(el){
+    el.classList.remove('d-none')
+    el.style.opacity = '1';
+    el.style.transition = '1s'
+}
+
+
+
 
 
