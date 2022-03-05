@@ -7,7 +7,7 @@ body {
 
 .bg-base{
     background-color: #ecebed83;
-    height: 550px;
+    /* height: 550px; */
 }
 
 .bg-name{
@@ -15,7 +15,7 @@ body {
 }
 
 p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 h1{
@@ -119,4 +119,27 @@ a:hover{
 @keyframes d-none-out{
     from {display: block;}
     to {display: none;}
+}
+
+.bg-foto{
+    background-image: url(./media/foto_profilo.jpeg);
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    align-items: stretch;
+   
+}
+
+.back{
+    backdrop-filter: opacity(1) blur(10px) brightness(30%);    
+}
+
+.back2{
+    backdrop-filter: opacity(1) blur(5px);    
+}
+
+#bio{
+    color: whitesmoke;
 }
