@@ -33,7 +33,17 @@ h2 {
 #dev{
     position: relative;
     z-index: 1;
+}
+
+.dev-sx{
+    transition: 0.3s;
     transform: translateX(20%);
+}
+
+
+.dev-dx{
+    transition: 0.3s;
+    transform: translateX(0);
 }
 
 h2:hover{
@@ -74,10 +84,6 @@ h2:hover{
     transform: rotate(90deg);
 }
 
-.fede-in{
-    opacity: 0.9s;
-    transition: 3s;
-}
 
 
 a {
@@ -93,7 +99,7 @@ a:hover{
 
 .my-shadow{
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.33);
-
+    
 }
 
 #portfolio:hover{
@@ -104,22 +110,24 @@ a:hover{
     font-size: 2.5rem;
 }
 
-/* Animazioni */
-@keyframes fade{
-    from {opacity:0;}
-    to {opacity:0.9;}
-}
-
-
-.d-none-out{
-    animation: d-none-out 1s;
+.fade-in{
+    transition: 1s;
+    opacity: 1;
+    
+   /*  animation-duration: 1s;
+    animation-name: fade-in; */
    
 }
-
-@keyframes d-none-out{
-    from {display: block;}
-    to {display: none;}
+/* Animazioni */
+@keyframes fade-in{
+    from {opacity:0;}
+    to {opacity:1;}
 }
+
+
+
+
+
 
 .bg-foto{
     background-image: url(./media/foto_profilo.jpeg);
@@ -153,4 +161,12 @@ a:hover{
 }
 .card{
     border: none!important;
+}
+
+#jobs{
+    height: 550px;
+}
+
+.altezza{
+    height: 550px;
 }
