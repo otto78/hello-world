@@ -1,3 +1,15 @@
+/* On screens that are 1400px or less */
+@media screen and (max-width: 1400px) {
+    .altezza{
+        height:546px;
+    }
+    
+}
+
+
+
+
+
 /* On screens that are 1200px or less */
 @media screen and (max-width: 1200px) {
     
@@ -9,6 +21,11 @@
         font-size: 17px;
         
     }
+
+    .altezza{
+        height: 500px;
+    
+}
 }
 
 /* On screens that are 992px or less, */

@@ -163,10 +163,16 @@ a:hover{
     border: none!important;
 }
 
-#jobs{
+/* #jobs{
     height: 550px;
-}
+} */
 
 .altezza{
-    height: 550px;
+    height: 636px;
+}
+
+.portfolio-card-img{
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
 }
