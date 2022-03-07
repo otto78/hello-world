@@ -1,7 +1,8 @@
 /* On screens that are 1400px or less */
 @media screen and (max-width: 1400px) {
+    
     .altezza{
-        height:546px;
+        height:570px;
     }
     
 }
@@ -23,7 +24,7 @@
     }
 
     .altezza{
-        height: 500px;
+        height: 546px;
     
 }
 }
@@ -49,9 +50,13 @@
     }
 
     .bio{
-        font-size: 13px;
+        font-size: 1rem;
         
     }
+    .altezza{
+        height: 462px;
+    }
+
 }
   
   /* On screens that are 768px or less */
@@ -78,7 +83,7 @@
     }
 
     .bio{
-        font-size: 16px;
+        font-size: 1.4rem;
         
     }
 }
@@ -87,7 +92,24 @@
  @media screen and (max-width: 476px) {
         
     .bio{
+        font-size: 1rem;
+        
+    }
+    h4{
+        font-size: 1.2rem;
+    }
+
+    .card-text{
+        font-size: 1rem;
+    }
+}
+
+/* On screens that are 375px or less */
+@media screen and (max-width: 400px) {
+        
+    .bio{
         font-size: 0.8rem;
         
     }
+   
 }

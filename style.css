@@ -1,6 +1,8 @@
 body {
     font-family: 'Arimo', sans-serif;
     background-image: linear-gradient(#866c4374, #866c4374), url(./media/desert.jpg);
+    background-size: cover;
+    
     background-color:  #866c4349;
     min-height: 100vh;   
 }
@@ -161,11 +163,17 @@ a:hover{
 }
 .card{
     border: none!important;
+    background-color:#9c8b7264;
 }
 
-/* #jobs{
-    height: 550px;
-} */
+.card:hover{
+    
+    background-color:#9c8b72b6;
+}
+
+#col2{
+    border-radius: 0 0.25rem 0.25rem 0;
+}
 
 .altezza{
     height: 636px;
@@ -175,4 +183,5 @@ a:hover{
     width: 150px;
     height: 200px;
     object-fit: cover;
+    border-radius: 0.25rem 0 0 0.25rem;
 }
