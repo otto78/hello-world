@@ -9,7 +9,6 @@ body {
 
 .bg-base{
     background-color: #ecebed83;
-    /* height: 550px; */
 }
 
 .bg-name{
@@ -42,7 +41,6 @@ h2 {
     transform: translateX(20%);
 }
 
-
 .dev-dx{
     transition: 0.3s;
     transform: translateX(0);
@@ -61,7 +59,6 @@ h2:hover{
     color :#9c8b72;
     transform: rotate(-90deg);
 }
-
 
 .par{
     color: whitesmoke;  
@@ -85,8 +82,6 @@ h2:hover{
     transition: 0.2s;
     transform: rotate(90deg);
 }
-
-
 
 a {
     color: #212529;
@@ -114,32 +109,22 @@ a:hover{
 
 .fade-in{
     transition: 1s;
-    opacity: 1;
-    
-   /*  animation-duration: 1s;
-    animation-name: fade-in; */
-   
+    opacity: 1;   
 }
+
 /* Animazioni */
 @keyframes fade-in{
     from {opacity:0;}
     to {opacity:1;}
 }
 
-
-
-
-
-
 .bg-foto{
-    background-image: url(./media/foto_profilo.jpeg);
-    
+    background-image: url(./media/foto_profilo.jpeg);   
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
-    align-items: stretch;
-   
+    align-items: stretch;  
 }
 
 .back{
@@ -156,18 +141,16 @@ a:hover{
     line-height: 1.6;
 }
 
-.filter{
-    
+.filter{   
     filter: brightness(20%) blur(5px);
-
 }
+
 .card{
     border: none!important;
     background-color:#9c8b7264;
 }
 
-.card:hover{
-    
+.card:hover{  
     background-color:#9c8b72b6;
 }
 

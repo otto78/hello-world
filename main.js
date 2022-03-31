@@ -31,10 +31,7 @@ freccia.addEventListener('click',()=>{
 
 //Pulsante PortFolio
 portfolioBtn.addEventListener('click', ()=>{
-    
- 
     if(img.classList.contains('filter')){
-
         img.classList.remove('filter')
         card.classList.toggle('d-none')
         jobs.classList.remove('d-none')
@@ -49,13 +46,11 @@ portfolioBtn.addEventListener('click', ()=>{
         
         card.classList.toggle('d-none')
         jobs.classList.toggle('d-none')
-
     }    
 })
 
 // Pulsante Back
 backBtn.addEventListener('click', ()=>{
-
     dev.classList.toggle('dev-sx')
     dev.classList.toggle('dev-dx')
 
@@ -63,17 +58,11 @@ backBtn.addEventListener('click', ()=>{
     card.classList.remove('d-none')
 })
 
-    
-
-    
-
-
 function nascondi(el){
     el.style.opacity = '0';
     el.style.transition = '0.5s'
     setTimeout(elimina, 500)
     function elimina(){el.classList.add('d-none')}
-
 }
 
 function mostra(el){
@@ -81,14 +70,6 @@ function mostra(el){
     el.style.opacity = '1';
     el.style.transition = '0.5s'
 }
-
-// function rimuovi(el){
-//     el.style.opacity = '0';
-//     el.style.transition = '1s'
-//     setTimeout(elimina, 1000)
-//     function elimina(){el.remove()}
-// }
-
 
 
 
