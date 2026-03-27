@@ -1,0 +1,78 @@
+// Print stylesheet - ottimizzato per stampa CV
+@media print {
+  // Nascondi elementi interattivi
+  #freccia,
+  #portfolioBtn,
+  #backBtn,
+  app-theme-toggle,
+  app-lang-switch {
+    display: none !important;
+  }
+
+  // Reset sfondi per risparmiare inchiostro
+  body {
+    background: white !important;
+    background-image: none !important;
+  }
+
+  .bg-base,
+  .bg-name,
+  .card {
+    background: white !important;
+    box-shadow: none !important;
+  }
+
+  // Mostra sempre bio e card
+  #bio {
+    opacity: 1 !important;
+    display: block !important;
+  }
+
+  #card {
+    display: block !important;
+  }
+
+  #jobs {
+    display: none !important;
+  }
+
+  // Font e colori per stampa
+  h1, h2, h3, h4 {
+    color: #000 !important;
+  }
+
+  p, a {
+    color: #333 !important;
+  }
+
+  // Link: mostra URL solo per email e sito
+  a[href^="mailto:"]:after,
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+
+  // Layout A4 friendly
+  .container-fluid {
+    max-width: 210mm; // A4 width
+    margin: 0 auto;
+  }
+
+  .altezza {
+    height: auto !important;
+  }
+
+  // Immagine profilo: riduci e posiziona
+  #img {
+    max-width: 150px;
+    max-height: 150px;
+    float: right;
+    margin-left: 1rem;
+  }
+
+  // Page breaks
+  .card, .my-shadow {
+    page-break-inside: avoid;
+  }
+}

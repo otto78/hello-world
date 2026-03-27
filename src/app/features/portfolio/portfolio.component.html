@@ -1,0 +1,9 @@
+<div id="jobs" class="overflow-auto px-3 pt-3 altezza" [class.d-none]="cvState.jobsHidden()">
+  @for (project of projects; track project.title) {
+    <app-portfolio-card [project]="project" />
+  }
+
+  <button id="backBtn" class="btn d-block mx-auto" (click)="onBackClick()">
+    <i class="bi bi-arrow-left-circle-fill"></i>
+  </button>
+</div>

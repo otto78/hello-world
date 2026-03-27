@@ -1,0 +1,21 @@
+// Home component styles - specifico per il componente
+.cv-download {
+  cursor: pointer;
+}
+
+#portfolioBtn {
+  &:hover {
+    color: #9c8b72 !important;
+  }
+}
+
+#freccia {
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    transition: 0.2s ease-in-out;
+    color: #9c8b72;
+    transform: rotate(-90deg);
+  }
+}

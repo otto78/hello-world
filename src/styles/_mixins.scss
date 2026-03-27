@@ -1,0 +1,16 @@
+@mixin responsive-font($size, $bp) {
+  font-size: $size;
+  @media screen and (max-width: $bp) {
+    font-size: $size * 0.8;
+  }
+}
+
+@mixin transition($property: all, $duration: 0.3s, $easing: ease) {
+  transition: $property $duration $easing;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,54 @@
+{
+  "home": {
+    "title": "Andrea",
+    "surname": "Mazzarotto",
+    "role": "Web Developer",
+    "email": "Email",
+    "phone": "WhatsApp",
+    "location": "San Stino di Livenza - VE",
+    "cvDownload": "CV",
+    "portfolio": "Portfolio"
+  },
+  "bio": {
+    "text": "Sono uno sviluppatore Web <strong>Full-Stack</strong>. Conosco i linguaggi di programmazione <strong>HTML, CSS, JS, PHP</strong>, i Framework <strong>Bootstrap</strong> e <strong>Laravel</strong> e sono formato sulla metodologia <strong>Agile</strong> e <strong>Scrum</strong>. Sono appassionato di <strong>Grafica</strong> e orientato al <strong>Frontend</strong>. Arrivo dal corso Full-Stack Web Developer di <strong>Aulab Hackademy</strong> e da studi universitari di <strong>Arte, Cinema e Teatro</strong>. Sono una persona artistica dalle spiccate doti relazionali e sempre alla ricerca di <strong>nuove sfide</strong>. Aspiro al costante miglioramento di me stesso."
+  },
+  "portfolio": {
+    "title": "Progetti",
+    "back": "Indietro"
+  },
+  "projects": {
+    "breackout": {
+      "title": "Breackout Game",
+      "desc": "Allena i tuoi riflessi con Breackout game! Il gioco più antico della rete!",
+      "tech": "HTML, CSS, Bootstrap, JS Vanilla, OOP"
+    },
+    "sefora": {
+      "title": "seforaantonello.it",
+      "desc": "Sito web personale della dott.ssa Psicologa Sefora Antonello",
+      "tech": "Wordpress, Elementor"
+    },
+    "memory": {
+      "title": "Memory Game",
+      "desc": "Allena la tua memoria con Memory, il gioco di carte più famoso!",
+      "tech": "HTML, CSS, JS Vanilla, OOP"
+    },
+    "presto": {
+      "title": "presto.it",
+      "desc": "Portale di annunci e scambi.",
+      "tech": "HTML, CSS, JS, jQuery, Laravel 8, Fortify, Spatie, Google Vision API"
+    }
+  },
+  "cv": {
+    "experience": "Esperienze",
+    "education": "Educazione",
+    "skills": "Skills"
+  },
+  "theme": {
+    "light": "Chiaro",
+    "dark": "Scuro"
+  },
+  "lang": {
+    "it": "IT",
+    "en": "EN"
+  }
+}

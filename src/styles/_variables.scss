@@ -1,0 +1,25 @@
+// Colori base
+$primary-color: #9c8b72;
+$primary-light: #9c8b7264;
+$primary-medium: #9c8b72b6;
+$bg-gradient: linear-gradient(#866c4374, #866c4374);
+$bg-image: url('../assets/desert.jpg');
+$bg-color: #866c4349;
+$bg-base: #ecebed83;
+
+// Dark mode colors
+$dark-bg-gradient: linear-gradient(#1a1a2e74, #1a1a2e74);
+$dark-bg-image: url('../assets/desert.jpg');
+$dark-bg-color: #0f0f1a49;
+$dark-bg-base: #2a2a3d83;
+
+// Breakpoints
+$bp-xxl: 1400px;
+$bp-xl: 1200px;
+$bp-lg: 992px;
+$bp-md: 767px;
+$bp-sm: 476px;
+$bp-xs: 400px;
+
+// Font
+$font-family: 'Arimo', sans-serif;

@@ -1,0 +1,43 @@
+<div id="bloccoTitoli">
+  <h1 class="text-light fw-bold text-uppercase">
+    {{ personal.name }}
+  </h1>
+
+  <div
+    id="dev"
+    class="d-flex text-light text-uppercase bg-dark rounded py-3 my-4 justify-content-between align-items-center px-4"
+    [ngClass]="cvState.devClasses()"
+  >
+    <h2 class="mb-0 py-2">{{ personal.role }}</h2>
+    <i
+      id="freccia"
+      class="fs-2"
+      [class]="cvState.frecciaIcon()"
+      (click)="onFrecciaClick()"
+    ></i>
+  </div>
+
+  <!-- Links -->
+  <a [href]="'mailto:' + personal.email" class="fw-bold m-1 d-block">
+    <i class="bi bi-envelope-fill me-2"></i>{{ personal.email }}
+  </a>
+  <a [href]="whatsappUrl" class="fw-bold m-1 d-block">
+    <i class="bi bi-whatsapp me-2"></i>{{ personal.phone }}
+  </a>
+  <a [href]="googleMapsUrl" target="_blank" class="fw-bold m-1 d-block">
+    <i class="bi bi-geo-alt-fill me-2"></i>{{ personal.location }}
+  </a>
+  <p class="fw-bold m-1">
+    @for (social of socials; track social.name) {
+      <a [href]="social.url" target="_blank" rel="noopener noreferrer">
+        <i class="me-3 {{ social.icon }}"></i>
+      </a>
+    }
+    <a [href]="cvPdfUrl" download class="cv-download">
+      CV <i class="bi bi-box-arrow-down"></i>
+    </a>
+    <button id="portfolioBtn" class="btn btn-dark ms-0 ms-sm-4 p-1 px-sm-3" (click)="onPortfolioClick()">
+      Portfolio
+    </button>
+  </p>
+</div>

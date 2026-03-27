@@ -1,0 +1,54 @@
+{
+  "home": {
+    "title": "Andrea",
+    "surname": "Mazzarotto",
+    "role": "Web Developer",
+    "email": "Email",
+    "phone": "WhatsApp",
+    "location": "San Stino di Livenza - VE",
+    "cvDownload": "CV",
+    "portfolio": "Portfolio"
+  },
+  "bio": {
+    "text": "I am a <strong>Full-Stack</strong> Web Developer. I know programming languages <strong>HTML, CSS, JS, PHP</strong>, frameworks <strong>Bootstrap</strong> and <strong>Laravel</strong>, and I am trained in <strong>Agile</strong> and <strong>Scrum</strong> methodologies. I am passionate about <strong>Graphics</strong> and oriented towards <strong>Frontend</strong>. I come from the Full-Stack Web Developer course at <strong>Aulab Hackademy</strong> and from university studies in <strong>Art, Cinema and Theatre</strong>. I am an artistic person with strong interpersonal skills, always looking for <strong>new challenges</strong>. I aspire to constantly improve myself."
+  },
+  "portfolio": {
+    "title": "Projects",
+    "back": "Back"
+  },
+  "projects": {
+    "breackout": {
+      "title": "Breackout Game",
+      "desc": "Train your reflexes with Breackout game! The oldest game on the web!",
+      "tech": "HTML, CSS, Bootstrap, JS Vanilla, OOP"
+    },
+    "sefora": {
+      "title": "seforaantonello.it",
+      "desc": "Personal website of Dr. Psychologist Sefora Antonello",
+      "tech": "Wordpress, Elementor"
+    },
+    "memory": {
+      "title": "Memory Game",
+      "desc": "Train your memory with Memory, the most famous card game!",
+      "tech": "HTML, CSS, JS Vanilla, OOP"
+    },
+    "presto": {
+      "title": "presto.it",
+      "desc": "Classified ads and exchange portal.",
+      "tech": "HTML, CSS, JS, jQuery, Laravel 8, Fortify, Spatie, Google Vision API"
+    }
+  },
+  "cv": {
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "lang": {
+    "it": "IT",
+    "en": "EN"
+  }
+}

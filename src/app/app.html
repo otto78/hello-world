@@ -1,0 +1,38 @@
+<div class="d-flex align-items-center justify-content-center min-vh-100" [class.dark-theme]="cvState.darkMode()">
+  <div class="container-fluid container-xl d-flex justify-content-center align-items-center">
+
+    <!-- Theme Toggle -->
+    <app-theme-toggle />
+
+    <!-- Lang Switch -->
+    <app-lang-switch />
+
+    <div class="row altezza align-items-center my-shadow rounded-3">
+      <!-- Left Column: Home Component -->
+      <div class="col-12 col-md-6">
+        <app-home />
+      </div>
+
+      <!-- Right Column: Photo + Bio + Portfolio -->
+      <div id="col2" class="col-12 col-md-6 bg-base d-flex justify-content-center align-items-center px-0">
+
+        <!-- Card with Photo and Bio -->
+        <div id="card" class="card bg-transparent text-white m-2" [class.d-none]="cvState.cardHidden()">
+          <img id="img" [src]="'assets/foto_profilo.jpeg'" class="card-img rounded-circle" alt="foto profilo" [class]="cvState.imgFilterClass()" />
+          <div class="card-img-overlay d-flex justify-content-center align-items-center">
+            <p id="bio" class="card-text text-center bio" [ngClass]="cvState.bioClasses()">
+              Sono uno sviluppatore<br> <strong>Web Full-Stack</strong>. Conosco i linguaggi di<br>programmazione <strong>HTML, CSS, JS, PHP</strong>,
+              Framework <strong>Bootstrap</strong> e <strong>Laravel</strong> e sono formato sulla metodologia <strong>Agile</strong> e <strong>Scrum</strong>.
+              Sono appassionato di <strong>Grafica</strong> e orientato al <strong>Frontend</strong>. Arrivo dal corso Full-Stack Web Developer di <strong>Aulab Hackademy</strong>
+              e da studi universitari di <strong>Arte, Cinema e Teatro</strong>.
+              Sono una persona artistica dalle spiccate doti relazionali e sempre alla ricerca di <strong>nuove sfide</strong>. Aspiro al costante miglioramento <br>di me stesso.
+            </p>
+          </div>
+        </div>
+
+        <!-- Portfolio/Jobs Section -->
+        <app-portfolio />
+      </div>
+    </div>
+  </div>
+</div>
